@@ -120,9 +120,19 @@ Global Classes
   cursor: pointer;
 }
 
+.btn:hover {
+  transition: linear 300ms;
+  padding: 1.12em 4em;
+}
+
+.btn:focus {
+  transition: linear 300ms;
+  padding: 1.12em 4em;
+}
+
 .btn:active {
-  transition: ease-in;
-  width: 50px;
+  transition: ease 300ms;
+  padding: 1.12em 2.5em;
 }
 
 /*============ 
